@@ -63,7 +63,7 @@
     "screenshot": "screenshot.png",
     "noImageResize": "true",
     "cssOptimize": true,
-    "favicon": false,
+    "favicon": "@PROJECT_PATH@/assets/images/0.svg",
     "": "on",
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
