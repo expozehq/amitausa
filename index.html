@@ -37,24 +37,6 @@ div,span,h1,h2,h3,h4,h5,h6,p,blockquote,a,ol,ul,li,figcaption,textarea,input{fon
   <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
   <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
   
-  <!-- Facebook Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1830079503800811');
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1830079503800811&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Facebook Pixel Code -->
-  
   
 </head>
 <body><div id="top-page"></div>                                         <amp-animation id="showScrollToTopAnim" layout="nodisplay">                                             <script type="application/json">                                             {                                                 "duration": "200ms",                                                 "fill": "both",                                                 "iterations": "1",                                                 "direction": "alternate",                                                 "animations": [                                                     {                                                         "selector": "#scrollToTopButton",                                                         "keyframes": [                                                             { "opacity": "0.4", "visibility": "visible" }                                                         ]                                                     }                                                 ]                                             }                                             </script>                                         </amp-animation>                                         <amp-animation id="hideScrollToTopAnim" layout="nodisplay">                                             <script type="application/json">                                             {                                                 "duration": "200ms",                                                 "fill": "both",                                                 "iterations": "1",                                                 "direction": "alternate",                                                 "animations": [                                                     {                                                         "selector": "#scrollToTopButton",                                                         "keyframes": [                                                             { "opacity": "0", "visibility": "hidden" }                                                         ]                                                     }                                                 ]                                             }                                             </script>                                         </amp-animation>                                         <div id="scrollToTopMarker">                                             <amp-position-observer on="enter:hideScrollToTopAnim.start; exit:showScrollToTopAnim.start" layout="nodisplay">                                             </amp-position-observer>                                         </div><amp-sidebar id="sidebar" class="cid-rX48m2CP8i" layout="nodisplay" side="right">
@@ -537,36 +519,38 @@ src="https://www.facebook.com/tr?id=1830079503800811&ev=PageView&noscript=1"
                 <h4 class="mbr-fonts-style mbr-fonts-style mbr-pb-3 align-left mbr-fonts-style display-1">Бронируйте место!</h4>
 
 
-                <p class="mbr-fonts-style mbr-text text1 align-left mbr-pb-3 mbr-fonts-style display-7">У нас ограниченное количество мест на <strong>бесплатном курсе. </strong>Заполни форму ниже, и мы вышлем тебе письмо-приглашение на бесплатный вебинар по магическим точкам. Вебинары проходят каждую субботу в 12:00 по Нью-Йорку.<br></p>
+                <p class="mbr-fonts-style mbr-text text1 align-left mbr-pb-3 mbr-fonts-style display-7">У нас ограниченное количество мест на <strong>бесплатном курсе. </strong>Заполни форму ниже, и мы вышлем тебе письмо-приглашение на бесплатный вебинар по магическим точкам.<br></p>
 
 
 
 
                 <div class="form-card">
                     <div class="col-lg-12 mx-auto  mbr-form" data-form-type="formoid">
-                        <!--Formbuilder Form-->
-                        <form method="POST" class="mbr-form" action-xhr="https://formoid.net/api/amp-form/push" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="eovti8agKQUEyQj/BGkTI0hKQANc0GguaOAdlGUJFUgGXIEJ64nuAX53KQhNr4GR2hO28aUw8B2IoseItrGIpUGE6+pyYfUIRAj7uG45cVn1ZHxj5PIid9stKXImWjF/.38F6q0kWPJMUnnKZhX/4L1LL2F7bs3xHjbV4umnSUPoJMBRzqlgFANJItKM08U1LyEkge9Az7aU9SDBYEAzb0E08pp70htzyXk4sLbX6/oz6iAr3cGj6Qe6mnfioy86D">                            <div class="mbr-row">
-                                <div submit-success="" class="mbr-col-lg-12 mbr-col-md-12 mbr-col-sm-12">
-                                    <template data-form-alert="" type="amp-mustache">Благодарим за твой интерес! Мы вышлем тебе письмо с инструкциями и ссылкой на вебинар в пятницу, а именно за день до вебинара!!</template>
-                                </div>
-                                <div submit-error="" class="mbr-col-lg-12 mbr-col-md-12 mbr-col-sm-12">
-                                    <template data-form-alert="" type="amp-mustache">Failed! {{error}}</template>
-                                </div>
-                            </div>
-                            <div class="dragArea mbr-row">
-                                <div data-for="form[data][0][1]" class="mbr-col-lg-6 mbr-col-md-12 mbr-col-sm-12 field">
-                                    <input type="hidden" name="form[data][0][0]" value="name" id="form[data][0][0]-form03-g" data-form-field="">
-                                    <input type="text" name="form[data][0][1]" placeholder="Полное Имя" data-form-field="name" class="field-input display-7" value="" id="form[data][0][1]-form03-g">
-                                </div>
-                                <div data-for="form[data][1][1]" class="mbr-col-lg-6 mbr-col-md-12 mbr-col-sm-12 field">
-                                    <input type="hidden" name="form[data][1][0]" value="email" id="form[data][1][0]-form03-g" data-form-field="">
-                                    <input type="email" name="form[data][1][1]" placeholder="Ваш Email" data-form-field="email" class="field-input display-7" value="" id="form[data][1][1]-form03-g">
-                                </div>
-                                <div class="mbr-col-lg-12 mbr-col-md-12 mbr-col-sm-12"><button type="submit" class="btn btn-white display-7">ЗАБРОНИРОВАТЬ</button></div>
-                            </div>
-                        </form>
-                        <!--Formbuilder Form-->
-                    </div>
+<!--Formbuilder Form-->
+<form method="POST" class="mbr-form" action-xhr="https://formoid.net/api/amp-form/push" data-form-title="Запись на бесплатный вебинар"><input type="hidden" name="email" data-form-email="true" value="Gwacd6YXe0Jw76DMlmi0m8wHZOPeRp6sLd8b5RqpBoXcrbiBetVwZtYUb86fUgdtzpk4e0Dc0Dpqx1how8nphIGLAelaT8TZo58QnVsX4xpMjo32n+kwo2TNBHjYST61.XCsLlC3WyqJc93fvqupSR8ZheRWhQCsi2gVosUdNXfrFcuOW6K45/dTSzaDu/oX9fTN4uCmGeEbRgv7jyd7i8DntmFx+MWd0Gq21HT2qyqxuwNyBz9ldoWCmPEdCRo8P">
+<div class="mbr-row">
+<div submit-success="" class="mbr-col-lg-12 mbr-col-md-12 mbr-col-sm-12">
+<template data-form-alert="" type="amp-mustache">Благодарим за твой интерес! Мы вышлем тебе письмо с инструкциями и ссылкой на вебинар!</template>
+</div>
+<div submit-error="" class="mbr-col-lg-12 mbr-col-md-12 mbr-col-sm-12">
+<template data-form-alert="" type="amp-mustache">Failed! {{error}}</template>
+</div>
+</div>
+<div class="dragArea mbr-row">
+<div data-for="form[data][0][1]" class="mbr-col-lg-6 mbr-col-md-12 mbr-col-sm-12 field">
+<input type="hidden" name="form[data][0][0]" value="name" id="form[data][0][0]-form03-g" data-form-field="">
+<input type="text" name="form[data][0][1]" placeholder="Полное Имя" data-form-field="name" class="field-input display-7" value="" id="form[data][0][1]-form03-g">
+</div>
+<div data-for="form[data][1][1]" class="mbr-col-lg-6 mbr-col-md-12 mbr-col-sm-12 field">
+<input type="hidden" name="form[data][1][0]" value="email" id="form[data][1][0]-form03-g" data-form-field="">
+<input type="email" name="form[data][1][1]" placeholder="Ваш Email" data-form-field="email" class="field-input display-7" value="" id="form[data][1][1]-form03-g">
+</div>
+<div class="mbr-col-lg-12 mbr-col-md-12 mbr-col-sm-12">
+<button type="submit" class="btn btn-white display-7">ЗАБРОНИРОВАТЬ</button>
+</div>
+</div>
+</form><!--Formbuilder Form-->
+</div>
 
                     
 
